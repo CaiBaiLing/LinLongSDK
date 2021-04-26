@@ -1,0 +1,12 @@
+#use_frameworks!
+
+platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://code.aliyun.com/maohongxun/LTSDKPodSpec.git'
+target 'LTAPI_Example' do
+  pod 'LTAPI', :path => '../'
+  target 'LTAPI_Tests' do
+    inherit! :search_paths
+
+  end
+end

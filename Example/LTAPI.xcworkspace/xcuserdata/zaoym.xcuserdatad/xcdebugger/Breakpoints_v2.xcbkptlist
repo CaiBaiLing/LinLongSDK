@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C226363-BAC0-4801-AB7F-163ED9E2AB36"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50A09E0C-6E29-4CF9-BE24-142143812629"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTAPI/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-payOder:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50A09E0C-6E29-4CF9-BE24-142143812629 - 7e62d55670f64f90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController payOder:]"
+                  moduleName = "&#x571f;&#x8c46;SDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zaoym/Desktop/TudouSDK/Example/LTAPI/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1206">
+               </Location>
+               <Location
+                  uuid = "50A09E0C-6E29-4CF9-BE24-142143812629 - 935e5dbce2f79a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__26-[ViewController payOder:]_block_invoke"
+                  moduleName = "&#x571f;&#x8c46;SDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zaoym/Desktop/TudouSDK/Example/LTAPI/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

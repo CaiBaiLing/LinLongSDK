@@ -1,0 +1,46 @@
+{
+  "name": "LTAPI",
+  "version": "2.4.19",
+  "summary": "A short description of LTAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jock-Z/TudouSDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xchhIos": "maohx@86lang.com"
+  },
+  "source": {
+    "git": "https://github.com/Jock-Z/TudouSDK.git",
+    "tag": "2.4.19"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LTAPI/Classes/**/*",
+  "resource_bundles": {
+    "LTSDK": [
+      "LTAPI/Assets/*.{png,html}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"OpenUDID.h\""
+  ],
+  "public_header_files": "LTAPI/Classes/API/PublicHeard/*.h",
+  "dependencies": {
+    "OpenUDID": [
+      "~> 1.0.0"
+    ],
+    "Masonry": [
+      "~>1.1.0"
+    ]
+  }
+}

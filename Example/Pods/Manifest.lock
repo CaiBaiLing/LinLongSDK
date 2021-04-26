@@ -1,0 +1,27 @@
+PODS:
+  - LTAPI (2.4.19):
+    - Masonry (~> 1.1.0)
+    - OpenUDID (~> 1.0.0)
+  - Masonry (1.1.0)
+  - OpenUDID (1.0.0)
+
+DEPENDENCIES:
+  - LTAPI (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - OpenUDID
+
+EXTERNAL SOURCES:
+  LTAPI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTAPI: d65fe04711b992ee3107ec19621bebe4e5879030
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+
+PODFILE CHECKSUM: bd5f54f68dedf873fff66150d567d84149b6afc0
+
+COCOAPODS: 1.10.0
